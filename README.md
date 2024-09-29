@@ -22,5 +22,3 @@ MINECRAFT is a trademark or registered trademark of Mojang Synergies AB.
 ---
 
 **by AndcoolSystems, September 29, 2024**
-
-Translated with DeepL.com (free version)
