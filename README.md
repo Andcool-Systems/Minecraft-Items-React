@@ -1,6 +1,9 @@
 # Minecraft Icons React
 A package containing icons of all Minecraft items in svg format.
 
+## Installation 
+`npm i minecraft-items-react`
+
 ## Usage
 **Include the project in your project.**   
 ```ts 
