@@ -1,0 +1,74 @@
+import React from 'react';
+import { IconProps } from '../types';
+const MinecraftSpawnEgg: React.FC<IconProps> = ({ size = 24 }) => (
+<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<rect x="7" y="2" width="1" height="1" fill="rgba(127, 127, 127, 255)" />
+<rect x="8" y="2" width="1" height="1" fill="rgba(108, 108, 108, 255)" />
+<rect x="7" y="3" width="1" height="1" fill="rgba(221, 221, 221, 255)" />
+<rect x="8" y="3" width="1" height="1" fill="rgba(202, 202, 202, 255)" />
+<rect x="9" y="3" width="1" height="1" fill="rgba(127, 127, 127, 255)" />
+<rect x="8" y="4" width="1" height="1" fill="rgba(233, 233, 233, 255)" />
+<rect x="9" y="4" width="1" height="1" fill="rgba(202, 202, 202, 255)" />
+<rect x="8" y="5" width="1" height="1" fill="rgba(242, 242, 242, 255)" />
+<rect x="9" y="5" width="1" height="1" fill="rgba(226, 226, 226, 255)" />
+<rect x="11" y="5" width="1" height="1" fill="rgba(108, 108, 108, 255)" />
+<rect x="3" y="6" width="1" height="1" fill="rgba(127, 127, 127, 255)" />
+<rect x="4" y="6" width="1" height="1" fill="rgba(219, 219, 219, 255)" />
+<rect x="7" y="6" width="1" height="1" fill="rgba(242, 242, 242, 255)" />
+<rect x="8" y="6" width="1" height="1" fill="rgba(238, 238, 238, 255)" />
+<rect x="9" y="6" width="1" height="1" fill="rgba(225, 225, 225, 255)" />
+<rect x="10" y="6" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="11" y="6" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="12" y="6" width="1" height="1" fill="rgba(108, 108, 108, 255)" />
+<rect x="3" y="7" width="1" height="1" fill="rgba(127, 127, 127, 255)" />
+<rect x="4" y="7" width="1" height="1" fill="rgba(226, 226, 226, 255)" />
+<rect x="5" y="7" width="1" height="1" fill="rgba(239, 239, 239, 255)" />
+<rect x="6" y="7" width="1" height="1" fill="rgba(246, 246, 246, 255)" />
+<rect x="7" y="7" width="1" height="1" fill="rgba(239, 239, 239, 255)" />
+<rect x="8" y="7" width="1" height="1" fill="rgba(231, 231, 231, 255)" />
+<rect x="11" y="7" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="12" y="7" width="1" height="1" fill="rgba(108, 108, 108, 255)" />
+<rect x="2" y="8" width="1" height="1" fill="rgba(127, 127, 127, 255)" />
+<rect x="3" y="8" width="1" height="1" fill="rgba(221, 221, 221, 255)" />
+<rect x="4" y="8" width="1" height="1" fill="rgba(231, 231, 231, 255)" />
+<rect x="7" y="8" width="1" height="1" fill="rgba(232, 232, 232, 255)" />
+<rect x="8" y="8" width="1" height="1" fill="rgba(219, 219, 219, 255)" />
+<rect x="11" y="8" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="12" y="8" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="13" y="8" width="1" height="1" fill="rgba(108, 108, 108, 255)" />
+<rect x="4" y="9" width="1" height="1" fill="rgba(229, 229, 229, 255)" />
+<rect x="6" y="9" width="1" height="1" fill="rgba(238, 238, 238, 255)" />
+<rect x="7" y="9" width="1" height="1" fill="rgba(223, 223, 223, 255)" />
+<rect x="8" y="9" width="1" height="1" fill="rgba(219, 219, 219, 255)" />
+<rect x="9" y="9" width="1" height="1" fill="rgba(219, 219, 219, 255)" />
+<rect x="10" y="9" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="11" y="9" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="12" y="9" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="13" y="9" width="1" height="1" fill="rgba(101, 101, 101, 255)" />
+<rect x="4" y="10" width="1" height="1" fill="rgba(224, 224, 224, 255)" />
+<rect x="5" y="10" width="1" height="1" fill="rgba(240, 240, 240, 255)" />
+<rect x="6" y="10" width="1" height="1" fill="rgba(233, 233, 233, 255)" />
+<rect x="8" y="10" width="1" height="1" fill="rgba(219, 219, 219, 255)" />
+<rect x="9" y="10" width="1" height="1" fill="rgba(219, 219, 219, 255)" />
+<rect x="10" y="10" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="11" y="10" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="13" y="10" width="1" height="1" fill="rgba(95, 95, 95, 255)" />
+<rect x="3" y="11" width="1" height="1" fill="rgba(127, 127, 127, 255)" />
+<rect x="4" y="11" width="1" height="1" fill="rgba(219, 219, 219, 255)" />
+<rect x="5" y="11" width="1" height="1" fill="rgba(223, 223, 223, 255)" />
+<rect x="9" y="11" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="3" y="12" width="1" height="1" fill="rgba(127, 127, 127, 255)" />
+<rect x="4" y="12" width="1" height="1" fill="rgba(196, 196, 196, 255)" />
+<rect x="5" y="12" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="9" y="12" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="4" y="13" width="1" height="1" fill="rgba(108, 108, 108, 255)" />
+<rect x="5" y="13" width="1" height="1" fill="rgba(108, 108, 108, 255)" />
+<rect x="6" y="13" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="7" y="13" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="8" y="13" width="1" height="1" fill="rgba(201, 201, 201, 255)" />
+<rect x="9" y="13" width="1" height="1" fill="rgba(200, 200, 200, 255)" />
+<rect x="10" y="13" width="1" height="1" fill="rgba(99, 99, 99, 255)" />
+<rect x="6" y="14" width="1" height="1" fill="rgba(108, 108, 108, 255)" />
+<rect x="9" y="14" width="1" height="1" fill="rgba(99, 99, 99, 255)" />
+</svg>);
+export default MinecraftSpawnEgg;
