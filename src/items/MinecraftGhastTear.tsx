@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
-const MinecraftGhastTear: React.FC<IconProps> = ({ size = 24 }) => (
-<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+const MinecraftGhastTear: React.FC<IconProps> = ({ size = 24, className, style }) => (
+<svg width={size} height={size} className={className} style={style} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <rect x="7" y="4" width="1" height="1" fill="rgba(56, 88, 88, 255)" />
 <rect x="8" y="4" width="1" height="1" fill="rgba(55, 74, 74, 255)" />
 <rect x="6" y="5" width="1" height="1" fill="rgba(56, 88, 88, 255)" />

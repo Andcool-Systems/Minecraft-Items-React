@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
-const MinecraftRedDye: React.FC<IconProps> = ({ size = 24 }) => (
-<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+const MinecraftRedDye: React.FC<IconProps> = ({ size = 24, className, style }) => (
+<svg width={size} height={size} className={className} style={style} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <rect x="7" y="3" width="1" height="1" fill="rgba(129, 41, 53, 255)" />
 <rect x="8" y="3" width="1" height="1" fill="rgba(121, 28, 39, 255)" />
 <rect x="3" y="4" width="1" height="1" fill="rgba(129, 41, 53, 255)" />

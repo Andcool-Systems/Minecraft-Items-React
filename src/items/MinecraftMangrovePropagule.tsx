@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
-const MinecraftMangrovePropagule: React.FC<IconProps> = ({ size = 24 }) => (
-<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+const MinecraftMangrovePropagule: React.FC<IconProps> = ({ size = 24, className, style }) => (
+<svg width={size} height={size} className={className} style={style} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <rect x="9" y="1" width="1" height="1" fill="rgba(115, 198, 118, 255)" />
 <rect x="10" y="1" width="1" height="1" fill="rgba(84, 178, 87, 255)" />
 <rect x="8" y="2" width="1" height="1" fill="rgba(115, 198, 118, 255)" />

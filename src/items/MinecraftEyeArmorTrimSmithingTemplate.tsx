@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
-const MinecraftEyeArmorTrimSmithingTemplate: React.FC<IconProps> = ({ size = 24 }) => (
-<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+const MinecraftEyeArmorTrimSmithingTemplate: React.FC<IconProps> = ({ size = 24, className, style }) => (
+<svg width={size} height={size} className={className} style={style} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <rect x="6" y="0" width="1" height="1" fill="rgba(222, 230, 164, 255)" />
 <rect x="7" y="0" width="1" height="1" fill="rgba(222, 230, 164, 255)" />
 <rect x="8" y="0" width="1" height="1" fill="rgba(213, 218, 148, 255)" />

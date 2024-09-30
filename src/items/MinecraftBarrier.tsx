@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
-const MinecraftBarrier: React.FC<IconProps> = ({ size = 24 }) => (
-<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+const MinecraftBarrier: React.FC<IconProps> = ({ size = 24, className, style }) => (
+<svg width={size} height={size} className={className} style={style} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <rect x="3" y="1" width="1" height="1" fill="rgba(190, 1, 1, 255)" />
 <rect x="4" y="1" width="1" height="1" fill="rgba(227, 0, 0, 255)" />
 <rect x="5" y="1" width="1" height="1" fill="rgba(227, 0, 0, 255)" />

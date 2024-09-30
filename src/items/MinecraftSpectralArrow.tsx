@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
-const MinecraftSpectralArrow: React.FC<IconProps> = ({ size = 24 }) => (
-<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+const MinecraftSpectralArrow: React.FC<IconProps> = ({ size = 24, className, style }) => (
+<svg width={size} height={size} className={className} style={style} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <rect x="12" y="2" width="1" height="1" fill="rgba(218, 185, 48, 255)" />
 <rect x="13" y="2" width="1" height="1" fill="rgba(255, 255, 255, 255)" />
 <rect x="14" y="2" width="1" height="1" fill="rgba(123, 63, 5, 255)" />

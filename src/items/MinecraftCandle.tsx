@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
-const MinecraftCandle: React.FC<IconProps> = ({ size = 24 }) => (
-<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+const MinecraftCandle: React.FC<IconProps> = ({ size = 24, className, style }) => (
+<svg width={size} height={size} className={className} style={style} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <rect x="8" y="1" width="1" height="1" fill="rgba(51, 48, 101, 255)" />
 <rect x="6" y="2" width="1" height="1" fill="rgba(209, 173, 100, 255)" />
 <rect x="7" y="2" width="1" height="1" fill="rgba(228, 205, 130, 255)" />

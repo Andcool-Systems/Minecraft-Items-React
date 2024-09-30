@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
-const MinecraftSpruceHangingSign: React.FC<IconProps> = ({ size = 24 }) => (
-<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+const MinecraftSpruceHangingSign: React.FC<IconProps> = ({ size = 24, className, style }) => (
+<svg width={size} height={size} className={className} style={style} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <rect x="1" y="1" width="1" height="1" fill="rgba(136, 101, 57, 255)" />
 <rect x="2" y="1" width="1" height="1" fill="rgba(122, 90, 52, 255)" />
 <rect x="3" y="1" width="1" height="1" fill="rgba(111, 111, 111, 255)" />

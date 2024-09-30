@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
-const MinecraftLeatherBootsOverlay: React.FC<IconProps> = ({ size = 24 }) => (
-<svg width={size} height={size} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+const MinecraftLeatherBootsOverlay: React.FC<IconProps> = ({ size = 24, className, style }) => (
+<svg width={size} height={size} className={className} style={style} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <rect x="2" y="9" width="1" height="1" fill="rgba(52, 33, 21, 255)" />
 <rect x="5" y="9" width="1" height="1" fill="rgba(114, 72, 46, 255)" />
 <rect x="6" y="9" width="1" height="1" fill="rgba(33, 21, 13, 255)" />
